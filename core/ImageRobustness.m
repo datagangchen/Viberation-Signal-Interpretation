@@ -8,7 +8,7 @@ function [robustness] = ImageRobustness(obj, TimeFreqency)
 %         obj.Nimf    : the index for chosen imf
 %         obj.Nfreq   : the index for chosen frequency bins
 %         obj.FreqIndex: the frequecy index 
-
+%  Copy right by : Gang Chen
 %% assemble the system
 Num_Fbin =obj.Fbin;
 
